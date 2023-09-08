@@ -7,7 +7,8 @@ description: "Applying the principles of automation, leverage and cost-effective
 ![Building an audience](./buildingaudience.png)
 ### 2023 update:
 
-Originally I built the service in such a way that it was incurring quite a lot of server costs... So after about 2 years I pulled the plug, but if enough time/energy I might set it up again.
+Originally I built the service in such a way that it was incurring quite a lot of server costs... So after about 2 years I pulled the plug, but if enough time/energy I might set it up again. <a href="https://62529d172b52b40008e7a6f0--pensive-curran-7efc9f.netlify.app/" target="_blank" rel="noopener noreferrer">You can check it out here</a>.
+
 
 ### Building an audience by building an acquisition channel?
 
