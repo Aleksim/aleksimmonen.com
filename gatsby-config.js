@@ -13,8 +13,8 @@ module.exports = {
       name: `Aleksi Immonen`,
       summary: `who has worked 9+ years in growth and startups.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Learn about my work and skills.`,
+    siteUrl: `https://aleksiimmonen.com/`,
     social: {
       twitter: `aleksimmonen`,
     },
@@ -116,7 +116,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Aleksi Immonen Blog RSS Feed",
           },
         ],
       },
