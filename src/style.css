@@ -26,6 +26,25 @@
 
 }
 
+/* Show full name and hide short name by default */
+.full-name {
+  display: inline;
+}
+.short-name {
+  display: none;
+}
+
+/* Show short name and hide full name on small screens */
+@media screen and (max-width: 768px) {
+  .full-name {
+    display: none;
+  }
+  .short-name {
+    display: inline;
+  }
+}
+
+
 .resources{
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;

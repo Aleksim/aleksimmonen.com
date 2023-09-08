@@ -25,8 +25,10 @@ const Navigation = () => {
   return (
     <nav className="navbar">
       <div className="name-item">
-        <Link to="/">Aleksi Immonen</Link>
-      </div>
+      <Link to="/">
+        <span className="full-name">Aleksi Immonen</span>
+        <span className="short-name">AI</span>
+      </Link>      </div>
       <div className="nav-items">
         <div className="dropdown" onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => setIsDropdownOpen(false)}>
           <span className="resources">Products</span>
