@@ -4,15 +4,15 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Navigation from "../components/navigation";
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
-
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location}>
+      <Navigation />
       <article
         className="blog-post"
         itemScope

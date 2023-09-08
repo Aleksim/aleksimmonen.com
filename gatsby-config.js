@@ -9,19 +9,33 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Aleksi Immonen`,
+      summary: `who has worked 9+ years in growth and startups.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `aleksimmonen`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Ubuntu`,
+            file: `https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap`,
+          },
+        ],
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -118,7 +132,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `/src/images/a.jpg`, // This path is relative to the root of the site.
       },
     },
   ],
