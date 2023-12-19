@@ -34,6 +34,9 @@ const Navigation = () => {
           <span className="resources">Products</span>
           {isDropdownOpen && (
             <div className="dropdown-content">
+            <a href="https://github.com/Aleksim/yt_to_text_and_bot" target="_blank" rel="noopener noreferrer">
+            YouTube Transcript-Based Q&A Bot
+            </a>
               <Link to="/coming-soon">Coming soon</Link>
               {/* <Link to="/coming-soon">Newest marketing tools</Link>
               <Link to="/coming-soon">Other</Link> */}
